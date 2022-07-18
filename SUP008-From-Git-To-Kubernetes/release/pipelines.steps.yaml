@@ -13,7 +13,7 @@ pipelines:
             - name: build_info_docker_back_app_promoted_staging
             - name: build_info_docker_frontapp_promoted_staging
           outputResources:
-            - name: docker-app-new-releasebundle
+            - name: docker_app_new_releasebundle
           description: RB of gradle and npm build
           releaseNotes:
             syntax: markdown
@@ -26,6 +26,6 @@ pipelines:
         configuration:
           dryRun: false
           inputResources:
-            - name: docker-app-new-releasebundle
+            - name: docker_app_new_releasebundle
               trigger: true
             - name: distribution_rule
