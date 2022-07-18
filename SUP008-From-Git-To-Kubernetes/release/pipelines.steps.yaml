@@ -7,7 +7,7 @@ pipelines:
           releaseBundleName: docker-app-releasebundle
           releaseBundleVersion: 'V1.2.${run_number}'
           dryRun: false
-          sign: true
+          sign: false
           storeAtSourceArtifactory: artifactory
           inputResources:
             - name: build_info_docker_back_app_promoted_staging
