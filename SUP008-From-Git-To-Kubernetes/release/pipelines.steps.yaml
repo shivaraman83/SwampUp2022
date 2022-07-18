@@ -7,7 +7,7 @@ pipelines:
           releaseBundleName: docker-app-releasebundle
           releaseBundleVersion: 'V1.2.${run_number}'
           dryRun: false
-          sign: false
+          sign: true
           inputResources:
             - name: build_info_docker_back_app_promoted_staging
             - name: build_info_docker_frontapp_promoted_staging
