@@ -19,9 +19,9 @@
 
 
 - Run ```git clone https://github.com/<YOUR_GITHUB_USERNAME>/SwampUp2022.git``` against your forked repository.
-- Run ```cd SwampUp2022/SUP008-From_Git_to_Kubernetes``` which is our class's folder with all the relevant code.
+- Run ```cd SwampUp2022/SUP008-From-Git-to-Kubernetes``` which is our class's folder with all the relevant code.
 - Open the file "back/pipelines.resources.yaml" and change the configuration.path in the following snippet based on your github username:</br>
-![alt text](https://i.ibb.co/wyrLVNK/Screen-Shot-2021-05-01-at-14-28-11.png)</br>
+![alt text](https://i.ibb.co/88FVvL5/Update-Git.jpg)</br>
 - Commit the changes to your forked repository:
  ```
 git add .
@@ -78,3 +78,6 @@ Complete/answer the following tasks/questions:
 - This application is now ready to be deployed to any k8s cluster of your choice :-)</br>
 ##### <ins>2 Bonus:</ins> [Index your Release Bundle with Xray](https://www.jfrog.com/confluence/display/JFROG/Distributing+Release+Bundles#DistributingReleaseBundles-XrayScanningofReleaseBundlesxraydata), and view the results under 'Xray' tab in Distribution.</br>
 ##### <ins>3 Bonus:</ins> Implement helm chart promotion: extend the pipelines with adding a quality gate after publishing the helm chart - what types of quality gate can you use?</br>
+
+
+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
