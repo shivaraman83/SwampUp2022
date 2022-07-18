@@ -1,5 +1,5 @@
 resources:
-  - name: docker-app-new-releasebundle
+  - name: docker_app_new_releasebundle
     type: ReleaseBundle
     configuration:
       sourceDistribution: distribution
